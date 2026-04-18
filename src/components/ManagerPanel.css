@@ -1,0 +1,45 @@
+.manager-panel {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 28px;
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 0 12px 40px rgba(0,0,0,.08);
+  position: relative;
+  overflow: hidden;
+}
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: .12em;
+  font-size: 12px;
+  color: #333;
+  padding: 0 6px;
+}
+.panel-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 16px 6px 0;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,.05);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+@media (max-width: 600px) {
+  .panel-content { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
+.brand { font-family: Inter, ui-sans-serif, system-ui; }
+.league { color: #6b7280; }
