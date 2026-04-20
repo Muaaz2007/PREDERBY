@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚽ PREDERBY
+#  PREDERBY
 ### Premier League Big Six Derby Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 What Is PREDERBY?
+## What Is PREDERBY?
 
 PREDERBY is a predictive analytics desktop application built in Python that forecasts the outcomes of **Big Six Premier League derbies**. It covers: **Arsenal, Chelsea, Liverpool, Manchester City, Manchester United, and Tottenham Hotspur**.
 
@@ -27,7 +27,7 @@ Built for ICT 206 (Intelligent Systems), the application combines real historica
 
 ---
 
-## 🎬 User Flow
+##  User Flow
 
 This is how a typical session through the app works:
 
@@ -40,7 +40,7 @@ This is how a typical session through the app works:
 
 ---
 
-## 🧠 Machine Learning Architecture
+##  Machine Learning Architecture
 
 The prediction engine is powered by a supervised classification model trained on historical Premier League data:
 
@@ -57,7 +57,7 @@ The model is pre-trained and saved as `models/predarby_model.pkl`. A `train_mode
 
 ---
 
-## 📊 Results Dashboard
+##  Results Dashboard
 
 Once a prediction is made, the app displays a full match analysis panel:
 
@@ -72,20 +72,20 @@ The results screen shows:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Description |
 |---|---|
-| 🎠 **Club Carousel** | Browse all Big Six clubs with swipe navigation |
-| 📈 **Live-style Stats** | Up-to-date league position, form, goals, and record |
-| 🤝 **Head-to-Head** | Full historical encounter breakdown |
-| 🤖 **ML Prediction** | Real-time probability output from trained model |
-| 🧑‍💼 **Manager Analysis** | Photo cards + tactical profiles for both managers |
-| 🧪 **Dual Analysis Mode** | Both "Simple" (layperson) and "Technical" insights |
+|  **Club Carousel** | Browse all Big Six clubs with swipe navigation |
+|  **Live-style Stats** | Up-to-date league position, form, goals, and record |
+|  **Head-to-Head** | Full historical encounter breakdown |
+|  **ML Prediction** | Real-time probability output from trained model |
+|  **Manager Analysis** | Photo cards + tactical profiles for both managers |
+|  **Dual Analysis Mode** | Both "Simple" (layperson) and "Technical" insights |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -139,7 +139,7 @@ Source_Code/
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - [NiceGUI](https://nicegui.io/) — Python web UI framework
 - [Scikit-learn](https://scikit-learn.org/) — Machine learning model
@@ -149,7 +149,7 @@ Source_Code/
 
 ---
 
-## 📜 License
+##  License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
