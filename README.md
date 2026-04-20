@@ -57,20 +57,7 @@ The model is pre-trained and saved as `models/predarby_model.pkl`. A `train_mode
 
 ---
 
-##  Results Dashboard
 
-Once a prediction is made, the app displays a full match analysis panel:
-
-![Results UI Mockup](src/assets/readme/results_ui.png)
-
-The results screen shows:
-- **Manager Cards** — Portrait cards for both managers with their club badge
-- **Head-to-Head Stats** — Historical win counts between the two sides
-- **Probability Boxes** — Three clearly labelled probability outcomes
-- **Model Highlights** — Simple, readable explanation of the model's reasoning
-- **Deep Analysis** — Tactical and form-based technical breakdown
-
----
 
 ##  Key Features
 
